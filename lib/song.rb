@@ -16,10 +16,9 @@ class Song
   
   def artist_name
     
-  self.collect do |x, y|
+  self
     
-    binding.pry
-
+ 
 end
 end
   
