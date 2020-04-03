@@ -4,20 +4,24 @@ class Song
   
   @@all = []
   
+  
   def initialize(name)
     @name = name
     @@all << self 
   end
   
-  
   def self.all
     @@all 
   end
   
-  def artist
-   Artist.select {|artist| artist.song == self}
-  end
+  def artist_name
+    
+  self.collect do |x, y|
+    
+    binding.pry
+
+end
+end
   
-  
-  
+
 end
