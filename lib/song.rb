@@ -18,6 +18,7 @@ class Song
     
   if artist.name 
      artist.name
+   else
   
     
  
